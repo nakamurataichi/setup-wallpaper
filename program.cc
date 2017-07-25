@@ -15,7 +15,6 @@ namespace wallpaper {
     SendMessage(progman, 0x052C, NULL, NULL);
 
     EnumWindows(EnumWindowsProc, NULL);
-    //ShowWindowAsync(workerw, SW_HIDE);
 
     if (workerw == NULL) {
       MessageBox(NULL, TEXT("Error : Failed to retrieve workerw!"), TEXT("wallpaper"), MB_OK | MB_ICONERROR);
