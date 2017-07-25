@@ -9,7 +9,7 @@ BOOL CALLBACK EnumWindowsProc(HWND hWnd, LPARAM lParam) {
 	return TRUE;
 };
 
-namespace demo {
+namespace wallpaper {
   void main(const v8::FunctionCallbackInfo<v8::Value>& args) {
     HWND progman = FindWindow(TEXT("Progman"), NULL);
     SendMessage(progman, 0x052C, NULL, NULL);
