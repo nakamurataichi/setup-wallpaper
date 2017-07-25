@@ -35,7 +35,7 @@ namespace demo {
   }
 
   void init(v8::Local<v8::Object> exports) {
-    NODE_SET_METHOD(exports, "hello", main);
+    NODE_SET_METHOD(exports, "start", main);
   }
   NODE_MODULE(setup_wallpaper, init)
 }
