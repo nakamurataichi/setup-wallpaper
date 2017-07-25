@@ -3,7 +3,7 @@
     {
       "target_name": "setup_wallpaper",
       "sources": [
-        "program.cpp"
+        "program.cc"
       ]
     }
   ]
